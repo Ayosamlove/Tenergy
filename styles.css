@@ -1,0 +1,16 @@
+.features {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/SolarInstallation.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 22rem 0;
+}
+
+.features h2 {
+  font-size: 3rem;
+}
+.features p {
+  font-size: 1.5rem;
+}
