@@ -14,3 +14,8 @@
 .features p {
   font-size: 1.5rem;
 }
+
+.contain {
+  width: 80%;
+  margin: 0 auto;
+}

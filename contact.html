@@ -26,132 +26,134 @@
     </style>
   </head>
   <body>
-    <!-- Links (sit on top) -->
-    <div class="w3-top">
-      <div class="w3-row w3-large w3-light-grey">
-        <div class="w3-col s2">
-          <a href="/index.html" class="w3-button w3-block">Home</a>
-        </div>
-        <div class="w3-col s2">
-          <a href="/product.html" class="w3-button w3-block"
-            >Products & Services</a
-          >
-        </div>
-        <div class="w3-col s2">
-          <a href="/project.html" class="w3-button w3-block">Projects</a>
-        </div>
-        <div class="w3-col s2">
-          <a href="/about.html" class="w3-button w3-block">About</a>
-        </div>
-        <div class="w3-col s2">
-          <a href="/contact.html" class="w3-button w3-block">Contact</a>
-        </div>
-        <div class="w3-col s2">
-          <a href="#" class="w3-button w3-block">Blog</a>
+    <div class="contain">
+      <!-- Links (sit on top) -->
+      <div class="w3-top">
+        <div class="w3-row w3-large w3-light-grey">
+          <div class="w3-col s2">
+            <a href="/index.html" class="w3-button w3-block">Home</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="/product.html" class="w3-button w3-block"
+              >Products & Services</a
+            >
+          </div>
+          <div class="w3-col s2">
+            <a href="/project.html" class="w3-button w3-block">Projects</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="/about.html" class="w3-button w3-block">About</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="/contact.html" class="w3-button w3-block">Contact</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="#" class="w3-button w3-block">Blog</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Contact -->
-    <div class="w3-center w3-padding-64" id="contact">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
-        >Contact Us</span
+      <!-- Contact -->
+      <div class="w3-center w3-padding-64" id="contact">
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          >Contact Us</span
+        >
+      </div>
+
+      <form
+        action="/action_page.php"
+        class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin"
       >
+        <h2 class="w3-center">Contact form:</h2>
+
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-user"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="first"
+              type="text"
+              placeholder="First Name"
+            />
+          </div>
+        </div>
+
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-user"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="last"
+              type="text"
+              placeholder="Last Name"
+            />
+          </div>
+        </div>
+
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-envelope-o"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="email"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-phone"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="phone"
+              type="text"
+              placeholder="Phone"
+            />
+          </div>
+        </div>
+
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-pencil"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="message"
+              type="text"
+              placeholder="Message"
+            />
+          </div>
+        </div>
+
+        <p class="w3-center">
+          <button class="w3-button w3-section w3-blue w3-ripple">Send</button>
+        </p>
+      </form>
+
+      <section class="map">
+        <div class="container-fluid">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.1572945752314!2d33.9815581!3d-11.468570099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x191d3ba64759097d%3A0x4d520ed5333392db!2sTENERGY%20MW!5e0!3m2!1sen!2suk!4v1695296158887!5m2!1sen!2suk"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </div>
-
-    <form
-      action="/action_page.php"
-      class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin"
-    >
-      <h2 class="w3-center">Contact form:</h2>
-
-      <div class="w3-row w3-section">
-        <div class="w3-col" style="width: 50px">
-          <i class="w3-xxlarge fa fa-user"></i>
-        </div>
-        <div class="w3-rest">
-          <input
-            class="w3-input w3-border"
-            name="first"
-            type="text"
-            placeholder="First Name"
-          />
-        </div>
-      </div>
-
-      <div class="w3-row w3-section">
-        <div class="w3-col" style="width: 50px">
-          <i class="w3-xxlarge fa fa-user"></i>
-        </div>
-        <div class="w3-rest">
-          <input
-            class="w3-input w3-border"
-            name="last"
-            type="text"
-            placeholder="Last Name"
-          />
-        </div>
-      </div>
-
-      <div class="w3-row w3-section">
-        <div class="w3-col" style="width: 50px">
-          <i class="w3-xxlarge fa fa-envelope-o"></i>
-        </div>
-        <div class="w3-rest">
-          <input
-            class="w3-input w3-border"
-            name="email"
-            type="text"
-            placeholder="Email"
-          />
-        </div>
-      </div>
-
-      <div class="w3-row w3-section">
-        <div class="w3-col" style="width: 50px">
-          <i class="w3-xxlarge fa fa-phone"></i>
-        </div>
-        <div class="w3-rest">
-          <input
-            class="w3-input w3-border"
-            name="phone"
-            type="text"
-            placeholder="Phone"
-          />
-        </div>
-      </div>
-
-      <div class="w3-row w3-section">
-        <div class="w3-col" style="width: 50px">
-          <i class="w3-xxlarge fa fa-pencil"></i>
-        </div>
-        <div class="w3-rest">
-          <input
-            class="w3-input w3-border"
-            name="message"
-            type="text"
-            placeholder="Message"
-          />
-        </div>
-      </div>
-
-      <p class="w3-center">
-        <button class="w3-button w3-section w3-blue w3-ripple">Send</button>
-      </p>
-    </form>
-
-    <section class="map">
-      <div class="container-fluid">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.1572945752314!2d33.9815581!3d-11.468570099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x191d3ba64759097d%3A0x4d520ed5333392db!2sTENERGY%20MW!5e0!3m2!1sen!2suk!4v1695296158887!5m2!1sen!2suk"
-          width="100%"
-          height="400"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
   </body>
 </html>
