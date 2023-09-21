@@ -1,6 +1,6 @@
 .features {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/SolarInstallation.jpg);
+    url(img/SolarInstallation.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
