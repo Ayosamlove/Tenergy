@@ -19,3 +19,8 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.project-box {
+  display: flex;
+  gap: 30px;
+}
