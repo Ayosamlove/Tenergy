@@ -20,7 +20,18 @@
   margin: 0 auto;
 }
 
-.project-box {
+.w3-panel {
+  text-align: center;
+  color: rgb(88, 88, 180);
+}
+
+#plans {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.project-card {
   display: flex;
-  gap: 30px;
 }
